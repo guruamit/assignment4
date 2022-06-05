@@ -1,0 +1,4 @@
+#Write a Python program to square the elements of a list using map() function.
+sample_list = [ 4,5,2,9]
+result =list( map(lambda a: a*a,sample_list))
+print(result)
